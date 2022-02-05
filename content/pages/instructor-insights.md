@@ -78,7 +78,18 @@ Assessment
 
 The students' grades were based on the following activities:
 
-| - 35% Technical materials{{< br >}}- 40% Communication + System Design and Analysis{{< br >}}- 25% Participation{{< br >}} 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+- 35% Technical materials
+- 40% Communication + System Design and Analysis
+- 25% Participation
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 ### Rubrics
 

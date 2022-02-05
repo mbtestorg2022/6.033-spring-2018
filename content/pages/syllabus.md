@@ -126,11 +126,76 @@ Grading
 
 The class consists of three components: technical material, communication/system design and analysis, and participation. Each of these components comprises roughly one third of your grade, according to the following breakdown:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-|  {{< br >}}{{< br >}} _Technical Material_ {{< br >}}{{< br >}} 30% for Quizzes (two @ 15% each) {{< br >}}{{< br >}} 5% for Hands-Ons {{< br >}}{{< br >}}  | 35% |
-| {{< h 3 >}}Communication + System Design and Analysis{{< /h >}} {{< br >}}{{< br >}} 10% for Design Project (DP) Preliminary Report and Presentation {{< br >}}{{< br >}} 20% for DP report {{< br >}}{{< br >}} 4% for DP Peer Review {{< br >}}{{< br >}} 6% for Critiques (Critique #1 =2%, Critique #2 = 4%) {{< br >}}{{< br >}}  | 40% |
-| {{< h 3 >}}Participation{{< /h >}} {{< br >}}{{< br >}} 20% for Recitation Participation {{< br >}}{{< br >}} 5% for Communication Participation {{< br >}}{{< br >}}  | 25% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+_Technical Material_
+
+30% for Quizzes (two @ 15% each)
+
+5% for Hands-Ons
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+35%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Communication + System Design and Analysis
+
+10% for Design Project (DP) Preliminary Report and Presentation
+
+20% for DP report
+
+4% for DP Peer Review
+
+6% for Critiques (Critique #1 =2%, Critique #2 = 4%)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+### Participation
+
+20% for Recitation Participation
+
+5% for Communication Participation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+25%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 You must complete all design project assignments in order to pass 6.033. If you do not, you will automatically receive an F.
 

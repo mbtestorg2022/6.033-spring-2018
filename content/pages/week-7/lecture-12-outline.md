@@ -39,12 +39,12 @@ uid: 3ebfda64-abe4-187a-6497-84708a5f0971
     *   Idea: Drop packets before the queue is full to give senders an early signal.
     *   Requires a measure of the average queue size, q\_avg.
     
-    q\_avg = a\*q\_instant + (1-a)\*q\_avg ; 0 < a << 1
+    q\_avg = a\*q\_instant + (1-a)\*q\_avg ; 0 \< a \<\< 1
     
     *   Drop packets with probability p. What is p?
     
-    q\_avg <= min\_q; p = 0  
-    min\_q < q\_avg <= max\_q; p increases linearly  
+    q\_avg \<= min\_q; p = 0  
+    min\_q \< q\_avg \<= max\_q; p increases linearly  
     q\_avg > max\_q; p = 1
     
     (see slides for diagram)
@@ -118,14 +118,78 @@ uid: 3ebfda64-abe4-187a-6497-84708a5f0971
     xbox:  \[ 10  | 10  | 10  | 10 \]
     email: \[ 100 | 100 | 100 | 100 \]
     
-    | xbox.weight = 2/3 |   email.weight = 1/3 |   <-- normalize weights |
-    | xbox.mean = 10 |   email.mean = 100 |   <-- mean packet size | xbox.norm = 2/3/10 |     email.norm = 1/3/100 |
-    |                  = 1/15 |                       = 1/300 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.weight = 2/3
+    {{< tdclose >}}
+    {{< tdopen >}}
+      email.weight = 1/3
+    {{< tdclose >}}
+    {{< tdopen >}}
+      \<-- normalize weights
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.mean = 10
+    {{< tdclose >}}
+    {{< tdopen >}}
+      email.mean = 100
+    {{< tdclose >}}
+    {{< tdopen >}}
+      \<-- mean packet size
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.norm = 2/3/10
+    {{< tdclose >}}
+    {{< tdopen >}}
+        email.norm = 1/3/100
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+                     = 1/15
+    {{< tdclose >}}
+    {{< tdopen >}}
+                          = 1/300
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
                               min norm = 1/300
     
-    | xbox.packets = 1/15/(1/300) | email.packets = 1/300/(1/300) |
-    |                     = 20 |                      = 1 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.packets = 1/15/(1/300)
+    {{< tdclose >}}
+    {{< tdopen >}}
+    email.packets = 1/300/(1/300)
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+                        = 20
+    {{< tdclose >}}
+    {{< tdopen >}}
+                         = 1
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
     So we send 20 packets = 20\*10 bytes = 200 bytes of xbox traffic for every 1 packet = 1\*100 bytes = 100 bytes of email traffic.
     
@@ -134,13 +198,51 @@ uid: 3ebfda64-abe4-187a-6497-84708a5f0971
     xbox:  \[ 5 | 5 | 10 | 10 \]
     email: \[ 1 | 1 | 1  | 1 \]
     
-    | xbox.weight = 2/3 |     email.weight = 1/3 |
-    | xbox.mean = 7.5 |     email.mean = 1 |
-    | xbox.norm = 4/45 |     email.norm = 1/3 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.weight = 2/3
+    {{< tdclose >}}
+    {{< tdopen >}}
+        email.weight = 1/3
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.mean = 7.5
+    {{< tdclose >}}
+    {{< tdopen >}}
+        email.mean = 1
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.norm = 4/45
+    {{< tdclose >}}
+    {{< tdopen >}}
+        email.norm = 1/3
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
                             min norm = 4/45
     
-    | xbox.packets = 1 |       email.packets = 3–4 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox.packets = 1
+    {{< tdclose >}}
+    {{< tdopen >}}
+          email.packets = 3–4
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
     So for every 3–4 bytes of email, we'll send 5–10 bytes of xbox. Not quite what we want...
     
@@ -196,8 +298,27 @@ uid: 3ebfda64-abe4-187a-6497-84708a5f0971
         *   Small quantums: Go through a lot of rounds before sending a packet.
         *   Large quantums: Potentially send a lot of packets from one queue before moving onto the next.
     *   Example 2:
-    | xbox = \[ 20 &#124; 750 &#124; 200 \] |  xbox.Quantum = 500 |
-    | email = \[ 500 &#124; 500 \] | email.Quantum = 500 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    xbox = \[ 20 | 750 | 200 \]
+    {{< tdclose >}}
+    {{< tdopen >}}
+     xbox.Quantum = 500
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    email = \[ 500 | 500 \]
+    {{< tdclose >}}
+    {{< tdopen >}}
+    email.Quantum = 500
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
     Round 1:
     

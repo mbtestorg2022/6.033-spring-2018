@@ -6,7 +6,15 @@ title: Lecture 21 Outline
 uid: 2500dbfe-4b2f-c63e-8d8a-c612f61c4d08
 ---
 
-| Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 1.  Introduction
     *   Current security guidelines:

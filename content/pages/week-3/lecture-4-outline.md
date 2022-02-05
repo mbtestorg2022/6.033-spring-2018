@@ -15,7 +15,7 @@ uid: 4bd4d775-885a-2661-47dc-64a6eba38676
     *   Allow programs to communicate.
     *   Another application of virtualization.
     *   Stores N messages, to deal with bursts.
-    *   API: send(m), m <- receive()
+    *   API: send(m), m \<- receive()
     *   Receivers and senders block if there are no messages (receiver) or no space (sender).
     *   Concurrency causes problems in the implementation.
     *   Need to decide when it's okay to write, when it's okay to read, and where to write to/read from.

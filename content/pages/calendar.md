@@ -9,51 +9,687 @@ The course has three major components: Lectures, Recitations, and Tutorials. A v
 Part I: Operating Systems
 -------------------------
 
-| &nbsp; | MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY |
-| --- | --- | --- | --- | --- | --- |
-| Week 1 | &nbsp; | Recitation 1 | Lecture 1 | Recitation 2 | Tutorial 1 |
-| &nbsp; | System Critique #1 assigned |
-| Week 2 | Lecture 2 | Recitation 3 | Lecture 3 | Recitation 4 | Tutorial 2 |
-| Hands-on 1 assigned | &nbsp; | Hands-on 2 assigned   | Hands-on 1 due |
-| Week 3 | &nbsp; | Lecture 4 | Lecture 5 | Recitation 5 | Tutorial 3 |
-| &nbsp; |  {{< br >}}{{< br >}} System Critique #1 due {{< br >}}{{< br >}} DP Preliminary Report assigned {{< br >}}{{< br >}}  |
-| Week 4 | Lecture 6 | Recitation 6 | Lecture 7 | Recitation 7 | Tutorial 4 |
-| &nbsp; | Hands-on 2 due | &nbsp; | Hands-on 3 assigned | System Critique #2 assigned 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ 
+{{< thclose >}}
+{{< thopen >}}
+MONDAY
+{{< thclose >}}
+{{< thopen >}}
+TUESDAY
+{{< thclose >}}
+{{< thopen >}}
+WEDNESDAY
+{{< thclose >}}
+{{< thopen >}}
+THURSDAY
+{{< thclose >}}
+{{< thopen >}}
+FRIDAY
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 1
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 1
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 2
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+System Critique #1 assigned
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 2
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 2
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 3
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 3
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 4
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Hands-on 1 assigned
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 2 assigned  
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 3
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 4
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 5
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 5
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+System Critique #1 due
+
+DP Preliminary Report assigned
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 4
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 6
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 6
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 7
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 7
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 2 due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 3 assigned
+{{< tdclose >}}
+{{< tdopen >}}
+System Critique #2 assigned
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Part II: Networking
 -------------------
 
-| &nbsp; | MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY |
-| --- | --- | --- | --- | --- | --- |
-| Week 5 | Lecture 8 | Recitation 8 | Lecture 9 | Recitation 9 | Tutorial 5 |
-| &nbsp; | Hands-on 4 assigned | Hands-on 3 due | &nbsp; |
-| Week 6 | Lecture 10 | No Recitation 10 | Lecture 11 | Recitation 11 | Tutorial 6 |
-| &nbsp; |  {{< br >}}{{< br >}} Hands-on 4 due {{< br >}}{{< br >}} Hands-on 5 assigned {{< br >}}{{< br >}}  | &nbsp; | System Critique #2 due |
-| Week 7 | Lecture 12 | Recitation 12 | Lecture 13 | Recitation 13 | &nbsp; |
-| &nbsp; | Hands-on 5 due | &nbsp; | DP Preliminary Report due 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ 
+{{< thclose >}}
+{{< thopen >}}
+MONDAY
+{{< thclose >}}
+{{< thopen >}}
+TUESDAY
+{{< thclose >}}
+{{< thopen >}}
+WEDNESDAY
+{{< thclose >}}
+{{< thopen >}}
+THURSDAY
+{{< thclose >}}
+{{< thopen >}}
+FRIDAY
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 5
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 8
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 8
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 9
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 9
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 4 assigned
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 3 due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 6
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 10
+{{< tdclose >}}
+{{< tdopen >}}
+No Recitation 10
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 11
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 11
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Hands-on 4 due
+
+Hands-on 5 assigned
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+System Critique #2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 7
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 12
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 12
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 13
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 13
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 5 due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+DP Preliminary Report due
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Part III: Distributed Systems
 -----------------------------
 
-| &nbsp; | MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY |
-| --- | --- | --- | --- | --- | --- |
-| Week 8 | Lecture 14 | Recitation 14 | Lecture 15 | No Recitation 15 (prepare for Quiz 1) | Tutorial 8 |
-| &nbsp; |  Quiz 1 | DP Presentation assigned |
-| Week 9 | Lecture 16 | Recitation 16 | Lecture 17 | Recitation 17 | No Tutorial 9 |
-| &nbsp; | Hands-on 6 assigned | &nbsp; |
-| Week 10 | &nbsp; | Lecture 18 | Recitation 18 | Tutorial 10 |
-| &nbsp; |  {{< br >}}{{< br >}} Hands-on 6 due {{< br >}}{{< br >}} Hands-on 7 assigned {{< br >}}{{< br >}}  | &nbsp; | DP Report assigned 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ 
+{{< thclose >}}
+{{< thopen >}}
+MONDAY
+{{< thclose >}}
+{{< thopen >}}
+TUESDAY
+{{< thclose >}}
+{{< thopen >}}
+WEDNESDAY
+{{< thclose >}}
+{{< thopen >}}
+THURSDAY
+{{< thclose >}}
+{{< thopen >}}
+FRIDAY
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 8
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 14
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 14
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 15
+{{< tdclose >}}
+{{< tdopen >}}
+No Recitation 15 (prepare for Quiz 1)
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+DP Presentation assigned
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 9
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 16
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 16
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 17
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 17
+{{< tdclose >}}
+{{< tdopen >}}
+No Tutorial 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 6 assigned
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 10
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 18
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 18
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 10
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Hands-on 6 due
+
+Hands-on 7 assigned
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+DP Report assigned
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Part IV: Security
 -----------------
 
-| &nbsp; | MONDAY | TUESDAY | WEDNESDAY | THURSDAY | FRIDAY |
-| --- | --- | --- | --- | --- | --- |
-| Week 11 | Lecture 19 | Recitation 19 | Lecture 20 | No Recitation 20 | Tutorial 11 |
-| &nbsp; | Hands-on 7 due | &nbsp; | Peer Review assigned |
-| Week 12 | Lecture 21 | Recitation 21 | Lecture 22 | Recitation 22 | Tutorial 12 |
-| &nbsp; |
-| Week 13 | Lecture 23 | Recitation 23 | Lecture 24 | Recitation 24 | No Tutorial 13 |
-| DP Report due | &nbsp; | Peer Review due |
-| Week 14 | Lecture 25 | Recitation 25 | Lecture 26 | Recitation 26 | &nbsp; |
-| &nbsp; | Quiz 2 (during Week 15)
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ 
+{{< thclose >}}
+{{< thopen >}}
+MONDAY
+{{< thclose >}}
+{{< thopen >}}
+TUESDAY
+{{< thclose >}}
+{{< thopen >}}
+WEDNESDAY
+{{< thclose >}}
+{{< thopen >}}
+THURSDAY
+{{< thclose >}}
+{{< thopen >}}
+FRIDAY
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 11
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 19
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 19
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 20
+{{< tdclose >}}
+{{< tdopen >}}
+No Recitation 20
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 11
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Hands-on 7 due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Peer Review assigned
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 12
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 21
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 21
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 22
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 22
+{{< tdclose >}}
+{{< tdopen >}}
+Tutorial 12
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 13
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 23
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 23
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 24
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 24
+{{< tdclose >}}
+{{< tdopen >}}
+No Tutorial 13
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+DP Report due
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Peer Review due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Week 14
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 25
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 25
+{{< tdclose >}}
+{{< tdopen >}}
+Lecture 26
+{{< tdclose >}}
+{{< tdopen >}}
+Recitation 26
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 (during Week 15)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

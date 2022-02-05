@@ -34,12 +34,63 @@ uid: 0f38d012-21c7-a072-b7fd-cd72637e5cd3
     *   There is an edge from T\_i to T\_j iff:
         *   T\_i and T\_j have a conflict between them.
         *   The first step in the conflict occurs in T\_i.
-    *   Example 1:| `T1` | `T2` |
-        | &nbsp; | `write (x, 20)` |
-        | `read (x)` | &nbsp; |
-        | &nbsp; | `write (y, 30)` |
-        | `read (y)` | &nbsp; |
-        | `write (y, y+10)` |   
+    *   Example 1:{{< tableopen >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `T1`
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `T2`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (x, 20)`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `read (x)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (y, 30)`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `read (y)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `write (y, y+10)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        
+        {{< tableclose >}}
         
         There are three conflicts:  
          `T2: write (x, 20); T1: read (x)  
@@ -48,30 +99,197 @@ uid: 0f38d012-21c7-a072-b7fd-cd72637e5cd3
         
         In each transaction, the first step is in T2. Conflict graph is: T2 -> T1.
         
-    *   Example 2:| `T1` | `T2` |
-        | `read (x)` | &nbsp; |
-        | &nbsp; | `write (x, 20)` |
-        | &nbsp; | `write (y, 30)` |
-        | `read (y)` | &nbsp; |
-        | `write (y, y+10)` |   
+    *   Example 2:{{< tableopen >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `T1`
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `T2`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `read (x)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (x, 20)`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (y, 30)`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `read (y)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `write (y, y+10)`
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        
+        {{< tableclose >}}
+        
     
     Now our three conflicts are:  
      `T1: read (x); T2: write (x, 20)  
       T2: write (y, 30); T1: read (y)  
       T2: write (y, 30); T1: write (y, y+10)`
     
-    Our conflict graph here is T1 <--> T2.
+    Our conflict graph here is T1 \<--> T2.
     
     (Note: this schedule was final-state serializable but not conflict serializable.)
     
-    *   Example 3:| `T1:` | `T2:` | `T3:` | `T4:` |
-        | `read (x)`  | &nbsp; |
-        | &nbsp; | `write (x)`  | &nbsp; |
-        | &nbsp; | `read (y)`  | &nbsp; |
-        | &nbsp; | `read (y)`  |
-        | `write (y)`  | &nbsp; |
-        | &nbsp; | `write (y)`  | &nbsp; |
-        | &nbsp; | `write (z)`  |   
+    *   Example 3:{{< tableopen >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `T1:`
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `T2:`
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `T3:`
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `T4:`
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `read (x)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (x)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `read (y)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `read (y)` 
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        `write (y)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (y)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+        `write (z)` 
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        
+        {{< tableclose >}}
         
         The conflicts here are:  
          `T1: read (x); T2: write (x)  
@@ -84,7 +302,7 @@ uid: 0f38d012-21c7-a072-b7fd-cd72637e5cd3
         The conflict graph is:  
          ![Conflict graph between T1, T2, T3, and T4.]({{< resource_file 191c7334-efdd-f334-6e7d-357d7122f6b8 >}})
         
-    *   Acyclic conflict graph <=> conflict-serializable.
+    *   Acyclic conflict graph \<=> conflict-serializable.
         *   Makes sense: conflict graph for any serial schedule is acyclic.
         *   But we won't formally prove this.
 5.  Interlude
@@ -104,13 +322,94 @@ uid: 0f38d012-21c7-a072-b7fd-cd72637e5cd3
         *   Acquire phase, where transactions acquire locks.
         *   Release phase, where transactions release locks.
     *   Immediate problem: 2PL can result in deadlock:
-    | `T1` |     | `T2` |
-    | `acquire (x_lock)` |     | `acquire (y_lock)` |
-    | `read (x)` |     | `read (y)` |
-    | `acquire (y_lock)` |     | `acquire (x_lock)` |
-    | `read (y)` |     | `read (x)` |
-    | `release (y_lock)` |     | `release (x_lock)` |
-    | `release (x_lock)` |     | `release (y_lock)` *   One solution to deadlock: Global ordering on locks. Not very modular.
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `T1`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `T2`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `acquire (x_lock)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `acquire (y_lock)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `read (x)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `read (y)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `acquire (y_lock)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `acquire (x_lock)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `read (y)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `read (x)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `release (y_lock)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `release (x_lock)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `release (x_lock)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `release (y_lock)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
+    *   One solution to deadlock: Global ordering on locks. Not very modular.
     *   Better solution: Take advantage of atomicity and abort one of the transactions.
         *   Seems like we're punting, but is actually very elegant; given atomicity, aborting is a-okay.
         *   Detecting deadlock is possible:
@@ -136,11 +435,69 @@ uid: 0f38d012-21c7-a072-b7fd-cd72637e5cd3
 8.  Another Possible Performance Improvement: Giving up on Conflict Serializability.
     *   Sometimes conflict serializability can seem like too strict a requirement.
     *   Example:
-    | `T1` | `T2` | `T3` |
-    | `read (x)`  | &nbsp; |
-    | &nbsp; | `write (x)`  | &nbsp; |
-    | `write (x)`  | &nbsp; |
-    | &nbsp; | `write (x)`  
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `T1`
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `T2`
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `T3`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `read (x)` 
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `write (x)` 
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `write (x)` 
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    {{< tdopen >}}
+     
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `write (x)` 
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
     Conflict graph:  
     ![Conflict graph between T1, T2, and T3.]({{< resource_file 08da808c-5e17-7094-6eb5-ed6637fa7572 >}})

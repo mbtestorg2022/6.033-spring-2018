@@ -6,7 +6,15 @@ title: Lecture 24 Outline
 uid: c4a5c659-5c87-2d2d-140b-12b013818b4a
 ---
 
-| Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 An invaluable resource for Bitcoin is this blog post: [How the Bitcoin Protocol Actually Works](http://www.michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/).
 
@@ -80,7 +88,7 @@ An invaluable resource for Bitcoin is this blog post: [How the Bitcoin Protocol
         *   Users who hear that message add it to their queue of pending transactions. Their goal is to verify a block of those transactions.
         *   After a user checks that the block is valid - that everyone owns the coins they're trying to spend—they set about solving the following "puzzle":
             *   t = block of transactions (as a bitstring).
-            *   Find x such that H(t|x) < target.
+            *   Find x such that H(t|x) \< target.
             *   Target changes frequently. Adjusted so that it takes roughly ten minutes to solve this puzzle.
         *   When a user solves the puzzle (finds x), they broadcast the block out along with x. They receive a monetary reward for solving the proof of work, to motivate users to take part in this process.
         *   This process is known as "mining" bitcoins.

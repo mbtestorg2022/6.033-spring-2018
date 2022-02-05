@@ -6,7 +6,15 @@ title: Lecture 23 Outline
 uid: 4793bb3a-5463-dd86-f8d5-6dc6fdf33ccb
 ---
 
-| Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 1.  Today's Threat Model
     *   Last time: adversary tried to observe or tamper with packets.

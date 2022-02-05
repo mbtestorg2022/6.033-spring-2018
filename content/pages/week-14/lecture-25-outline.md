@@ -6,7 +6,15 @@ title: Lecture 25 Outline
 uid: 935d90a5-7a9a-0169-7319-6c14b0526d90
 ---
 
-| Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 1.  Introduction
     *   We've covered how to provide confidentiality, integrity, and authenticity.

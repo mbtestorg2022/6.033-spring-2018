@@ -13,19 +13,127 @@ uid: c46fe11e-d023-04f5-7535-4315faa42e52
     *   So far: Have a poorly-performing version of atomicity via shadow copies.
     *   Today: Logging, which will give us reasonable performance for atomicity. Logging also works when we have multiple concurrent transactions, even though for today we're not thinking about concurrency.
 2.  Motivating Example
-    *   | begin | // T1 |
-        | A = 100 | &nbsp; |
-        | B = 50 | &nbsp; |
-        | commit | // At commit: A=100; B=50 |
-        | &nbsp; |
-        | begin | // T2 |
-        | A = A - 20 | &nbsp; |
-        | B = B + 20 | &nbsp; |
-        | commit | // At commit: A=80; B=70 |
-        | &nbsp; |
-        | begin | // T3 |
-        | A = A + 30 | &nbsp; |
-        | —CRASH— |   
+    *   {{< tableopen >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        begin
+        {{< tdclose >}}
+        {{< tdopen >}}
+        // T1
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        A = 100
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        B = 50
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        commit
+        {{< tdclose >}}
+        {{< tdopen >}}
+        // At commit: A=100; B=50
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        begin
+        {{< tdclose >}}
+        {{< tdopen >}}
+        // T2
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        A = A - 20
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        B = B + 20
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        commit
+        {{< tdclose >}}
+        {{< tdopen >}}
+        // At commit: A=80; B=70
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        begin
+        {{< tdclose >}}
+        {{< tdopen >}}
+        // T3
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        A = A + 30
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        {{< tropen >}}
+        {{< tdopen >}}
+        —CRASH—
+        {{< tdclose >}}
+        {{< tdopen >}}
+         
+        {{< tdclose >}}
+        
+        {{< trclose >}}
+        
+        {{< tableclose >}}
+        
     *   Problem: A = 110, but T3 didn't commit. We need to revert.
 3.  Basic Idea
     *   Keep a log of all changes and whether a transaction commits or aborts.

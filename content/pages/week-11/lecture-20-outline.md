@@ -6,7 +6,15 @@ title: Lecture 20 Outline
 uid: 45c3152a-7c7a-8e9d-0344-24fc1d9e7161
 ---
 
-| Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others. 
+{{< tableopen >}}
+{{< tropen >}}
+{{< tdopen >}}
+Disclaimer: This is part of the security section in 6.033. Only use the information you learn in this portion of the class to secure your own systems, not to attack others.
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 1.  Introduction
     *   Previously in 6.033: Building reliable systems in the face of more-or-less random, more-or-less independent failures.

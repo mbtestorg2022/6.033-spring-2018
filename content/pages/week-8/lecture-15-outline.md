@@ -85,11 +85,69 @@ uid: f982d841-2b34-3c22-7262-04fc7b163732
     *   Transactions: Powerful abstraction that provides atomicity \*and\* isolation.
         *   We've been trying to figure out how to provide atomicity. Our larger goal is to provide both abstractions, so that we can get transactions to actually work.
     *   Examples:
-    | `T1` |     | `T2` |
-    | `begin` |     | `begin` |
-    | `transfer(A, B, 20)` |     | `transfer(B, C, 5)` |
-    | `withdraw(B, 10)` |     | `deposit(A, 5)` |
-    | `end` |     | `end` 
+    {{< tableopen >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `T1`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `T2`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `begin`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `begin`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `transfer(A, B, 20)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `transfer(B, C, 5)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `withdraw(B, 10)`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `deposit(A, 5)`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    {{< tropen >}}
+    {{< tdopen >}}
+    `end`
+    {{< tdclose >}}
+    {{< tdopen >}}
+       
+    {{< tdclose >}}
+    {{< tdopen >}}
+    `end`
+    {{< tdclose >}}
+    
+    {{< trclose >}}
+    
+    {{< tableclose >}}
     
     *   "begin" and "end" define start and end of transaction
     *   These transactions are using higher-level steps than before. T1, e.g., wants the transfer \*and\* the withdraw to be a single atomic action.

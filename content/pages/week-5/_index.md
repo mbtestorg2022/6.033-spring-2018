@@ -32,7 +32,7 @@ Lecture 8: Introduction to Networking
 Recitation 8: The Design Philosophy of the DARPA Internet Protocols
 -------------------------------------------------------------------
 
-*   Read "![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[The Design Philosophy of the DARPA Internet Protocols (PDF)](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)" by D. Clark. (Skip Section 10)
+*   Read "[The Design Philosophy of the DARPA Internet Protocols (PDF)](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)" by D. Clark. (Skip Section 10)
 *   [DARPA Assignment]({{< baseurl >}}/pages/week-5/darpa-assignment)
 
 Hands-on Assignment 4: Reliable Transport
@@ -65,7 +65,7 @@ Lecture 9: Routing
 Recitation 9: Landmark Routing
 ------------------------------
 
-*   Read the ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[The Landmark Hierarchy: An New Hierarchy for Routing Very Large Networks (PDF)](http://www.cs.cornell.edu/people/francis/p35-tsuchiya.pdf)" by P. Tsuchiya
+*   Read the "[The Landmark Hierarchy: An New Hierarchy for Routing Very Large Networks (PDF)](http://www.cs.cornell.edu/people/francis/p35-tsuchiya.pdf)" by P. Tsuchiya
 *   [Landmark Routing Assignment]({{< baseurl >}}/pages/week-5/landmark-routing-assignment)
 
 Tutorial 5: Collaboration & Figures

@@ -31,7 +31,7 @@ Lecture 23: Network Security and Distributed Denial of Service (DDoS) Attacks
 Recitation 23: Botnets
 ----------------------
 
-*   Read ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[Your Botnet is My Botnet: Analysis of a Botnet Takeover (PDF)](https://sites.cs.ucsb.edu/~chris/research/doc/ccs09_botnet.pdf)" by B. Stone-Gross, et al.
+*   Read "[Your Botnet is My Botnet: Analysis of a Botnet Takeover (PDF)](https://sites.cs.ucsb.edu/~chris/research/doc/ccs09_botnet.pdf)" by B. Stone-Gross, et al.
 *   [Botnets Assignment]({{< baseurl >}}/pages/week-13/botnets-assignment)
 
 Lecture 24: Bitcoin
@@ -61,7 +61,7 @@ Lecture 24: Bitcoin
 Recitation 24: Memory Corruption
 --------------------------------
 
-*   Read ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[SoK: Eternal War in Memory (PDF)](https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf)" by L. Szekeres, M. Payer, T. Wei & D. Song
+*   Read "[SoK: Eternal War in Memory (PDF)](https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf)" by L. Szekeres, M. Payer, T. Wei & D. Song
 *   [Memory Corruption Assignment]({{< baseurl >}}/pages/week-13/memory-corruption-assignment)
 
 Tutorial 13: \[No Tutorial\]

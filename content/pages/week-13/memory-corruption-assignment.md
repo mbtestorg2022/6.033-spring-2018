@@ -6,7 +6,7 @@ title: Memory Corruption Assignment
 uid: f16c7835-ea51-9931-2f17-c5652cc47102
 ---
 
-For this recitation, you'll be reading ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[SoK: Eternal War in Memory (PDF)](https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf)" by Lazlo Szekeres, Mathia Payer, Tao Wei, and Dawn Song. This paper describes a variety of memory corruption bugs, and potential solutions. Don't worry about memorizing every single type of attack described in this paper; aim to understand what makes these attacks possible, and the general ideas behind the solutions.
+For this recitation, you'll be reading "[SoK: Eternal War in Memory (PDF)](https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf)" by Lazlo Szekeres, Mathia Payer, Tao Wei, and Dawn Song. This paper describes a variety of memory corruption bugs, and potential solutions. Don't worry about memorizing every single type of attack described in this paper; aim to understand what makes these attacks possible, and the general ideas behind the solutions.
 
 (We've also written a [quick guide (PDF)]({{< baseurl >}}/resources/guide) to some of the memory corruption bugs described in the paper, which you might want to take a look at before you start reading.)
 

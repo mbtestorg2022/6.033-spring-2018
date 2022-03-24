@@ -6,7 +6,7 @@ title: Meltdown Assignment
 uid: 447da471-034f-b347-4c11-bbe7bfa9e6b3
 ---
 
-For this recitation, you'll be reading ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[Meltdown (PDF)](https://meltdownattack.com/meltdown.pdf)" by Moritz Lipp, Michael Schwarz, et al. Meltdown, along with Spectre, is a security vulnerability that was discovered early this year, which affects all modern Intel processors.
+For this recitation, you'll be reading "[Meltdown (PDF)](https://meltdownattack.com/meltdown.pdf)" by Moritz Lipp, Michael Schwarz, et al. Meltdown, along with Spectre, is a security vulnerability that was discovered early this year, which affects all modern Intel processors.
 
 To help as you read:
 

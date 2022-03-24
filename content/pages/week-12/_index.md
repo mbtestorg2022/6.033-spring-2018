@@ -30,7 +30,7 @@ Lecture 21: Authentication and Passwords
 Recitation 21: Why Cryptosystems Fail
 -------------------------------------
 
-*   Read ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[Why Cryptosystems Fail (PDF)](https://www.cl.cam.ac.uk/~rja14/Papers/wcf.pdf)" by R. Anderson
+*   Read "[Why Cryptosystems Fail (PDF)](https://www.cl.cam.ac.uk/~rja14/Papers/wcf.pdf)" by R. Anderson
 *   [Why Cryptosystems Fail Assignment]({{< baseurl >}}/pages/week-12/why-cryptosystems-fail-assignment)
 
 Lecture 22: Secure Channels
@@ -60,7 +60,7 @@ Lecture 22: Secure Channels
 Recitation 22: Domain Name System Security Extensions (DNSSEC)
 --------------------------------------------------------------
 
-*   Read ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[Security vulnerabilities in DNS and DNSSEC (PDF)](http://www.chrismitchell.net/svidad.pdf)" by S. Ariyapperuma & C. Mitchell
+*   Read "[Security vulnerabilities in DNS and DNSSEC (PDF)](http://www.chrismitchell.net/svidad.pdf)" by S. Ariyapperuma & C. Mitchell
 *   [DNSSEC Assignment]({{< baseurl >}}/pages/week-12/dnssec-assignment)
 
 Tutorial 12: Final Design Project Report

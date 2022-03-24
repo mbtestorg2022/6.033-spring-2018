@@ -56,7 +56,7 @@ Lecture 11: Transport Layer
 
 ### Lecture Slides
 
-*   ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Lecture 11 Slides: Transport Layer (PDF)]({{< baseurl >}}/resources/mit6_033s18lec11)
+*   [Lecture 11 Slides: Transport Layer (PDF)]({{< baseurl >}}/resources/mit6_033s18lec11)
 
 ### Reading
 
@@ -65,7 +65,7 @@ Lecture 11: Transport Layer
 Recitation 11: Resilient Overlay Networks (RON)
 -----------------------------------------------
 
-*   Read most of "![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[Resilient Overlay Networks (PDF)](http://nms.lcs.mit.edu/papers/ron-sosp2001.pdf)" by D. Andersen, H. Balakrishnan, et al.
+*   Read most of "[Resilient Overlay Networks (PDF)](http://nms.lcs.mit.edu/papers/ron-sosp2001.pdf)" by D. Andersen, H. Balakrishnan, et al.
 *   See assignment for details about which sections to read.
 *   [RON Assignment]({{< baseurl >}}/pages/week-6/ron-assignment)
 

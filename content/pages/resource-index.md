@@ -790,7 +790,7 @@ No readings assigned
 
 **Lecture 26:** 
 
-![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[The Night Watch (PDF)](http://scholar.harvard.edu/files/mickens/files/thenightwatch.pdf)" by James Mickens
+"[The Night Watch (PDF)](http://scholar.harvard.edu/files/mickens/files/thenightwatch.pdf)" by James Mickens
 
 
 {{< tdclose >}}

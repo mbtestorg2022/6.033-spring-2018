@@ -33,7 +33,7 @@ Lecture 16: Atomicity via Logging
 Recitation 16: Log-Structured File System (LFS)
 -----------------------------------------------
 
-*   Read ![This resource may not render correctly in a screen reader.](/images/inacessible.gif)"[Log-structured File Systems (PDF)](http://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)" by R. & A. Arpaci-Dusseau
+*   Read "[Log-structured File Systems (PDF)](http://pages.cs.wisc.edu/~remzi/OSTEP/file-lfs.pdf)" by R. & A. Arpaci-Dusseau
 *   [Log-Structured File System (LFS) Assignment]({{< baseurl >}}/pages/week-9/log-structured-file-system-lfs-assignment)
 
 Hands-on Assignment 6: Write Ahead Log (WAL) System

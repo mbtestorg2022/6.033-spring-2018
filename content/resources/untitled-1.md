@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Diagram of connections between providers, peers, and clients.
+parent_uid: 26febf46-605f-599b-aa63-c8504b6e5d4d
 resourcetype: Image
 title: Untitled-1.jpg
 uid: ee3eaf70-d51d-d899-2741-50145fdb3bd4

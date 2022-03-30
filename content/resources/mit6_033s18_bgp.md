@@ -3,6 +3,7 @@ content_type: resource
 description: ''
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-033-computer-system-engineering-spring-2018/fcf7a1c903920c1f03b485ee143bdeaa_MIT6_033s18_bgp.pdf
 file_type: application/pdf
+parent_uid: 75800336-c3a2-ebee-84a1-8bb126a5a60b
 resourcetype: Document
 title: Computer System Engineering, BGP Routing
 uid: fcf7a1c9-0392-0c1f-03b4-85ee143bdeaa

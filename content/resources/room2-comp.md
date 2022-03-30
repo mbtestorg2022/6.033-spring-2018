@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
+parent_uid: e75a8c08-e117-86c5-3503-1b5e10f0fe19
 resourcetype: Image
 title: room2-comp.jpg
 uid: f71e9470-30e0-207a-655e-28d00738d833

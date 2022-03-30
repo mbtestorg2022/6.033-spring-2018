@@ -3,6 +3,7 @@ content_type: resource
 description: ''
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/6-033-computer-system-engineering-spring-2018/85a82c1bd74e0931df5036a9cbc97de6_MIT6_033S18dpr.pdf
 file_type: application/pdf
+parent_uid: 62a94c78-a524-3c30-60aa-11c27ff81fc7
 resourcetype: Document
 title: Computer System Engineering, Design Project Final Report
 uid: 85a82c1b-d74e-0931-df50-36a9cbc97de6

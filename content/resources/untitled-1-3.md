@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Diagram of a blockchain fork.
+parent_uid: c4a5c659-5c87-2d2d-140b-12b013818b4a
 resourcetype: Image
 title: Untitled-1.jpg
 uid: d3601a92-393b-b430-c3f5-22cb995c18f8

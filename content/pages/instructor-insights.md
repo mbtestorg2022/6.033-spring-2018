@@ -36,8 +36,8 @@ Curriculum Information
 
 ### Prerequisites
 
-[_6.004 Computation Structures_](/courses/6-004-computation-structures-spring-2009/)  
-and [_6.005 Software Construction_](/courses/6-005-software-construction-spring-2016/) or _6.009 Fundamentals of Programming_
+[_6.004 Computation Structures_](/courses/6-004-computation-structures-spring-2009)  
+and [_6.005 Software Construction_](/courses/6-005-software-construction-spring-2016) or _6.009 Fundamentals of Programming_
 
 ### Requirements Satisfied
 

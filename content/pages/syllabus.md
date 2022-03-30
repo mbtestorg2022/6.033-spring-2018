@@ -44,7 +44,7 @@ Saltzer, Jerome H. and M. Frans Kaashoek. _Principles of Computer System Design:
 
 The text supplements the lectures and recitations; it should be your first resource when you are confused by a lecture topic, or want more information.
 
-[Part II of the textbook](/resources/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009) is available on MIT OpenCourseWare.
+[Part II of the textbook](/courses/res-6-004-principles-of-computer-system-design-an-introduction-spring-2009) is available on MIT OpenCourseWare.
 
 Course Structure
 ----------------

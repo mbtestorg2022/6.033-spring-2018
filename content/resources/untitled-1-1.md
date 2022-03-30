@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Diagram of packet transmission with 2 Mb/s window.
+parent_uid: a832ff85-3be6-a295-c5a6-23b102707bb8
 resourcetype: Image
 title: Untitled-1.jpg
 uid: 4ebf5d77-c8bf-9a53-f40a-94e56925c899

@@ -7,6 +7,7 @@ image_metadata:
   caption: ''
   credit: ''
   image-alt: Diagram showing connection between client A and client S through nodes.
+parent_uid: e46aed55-3f04-cfcf-dcdd-9ab3513be6ed
 resourcetype: Image
 title: Untitled-2.jpg
 uid: 46892ea3-a63a-6724-e3aa-77ee0b0114a2
